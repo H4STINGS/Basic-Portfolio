@@ -1,12 +1,15 @@
-body {
-    color: #777777;
+body{
+     background: #ffffff
 }
+
 h1, h2 {
     font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #777777;
 }
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 header {
@@ -19,8 +22,10 @@ header {
 header h1 {
     background: #4aaaa5;
     color: white;
+    width: 275px;
+    border: 25px;
     padding: 25px;
-    display: inline-block;
+    margin: 0px
 
 }
 
@@ -29,6 +34,7 @@ header h2{
 }
 
 footer {
+    bottom: 0;
     left: 0;
     width: 100%;
     padding: 40px;
@@ -60,7 +66,7 @@ footer {
 
 .top {
     width: 960px;
-    margin: auto
+    margin: auto;
 }
 
 .middle {

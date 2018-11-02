@@ -1,5 +1,5 @@
 body{
-     background: #ffffff
+     background: url('../images/gravel.png') 
 }
 
 h1, h2 {
@@ -14,7 +14,7 @@ p {
 
 header {
     background: white;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
     margin-bottom: 30px;
     
 }
@@ -34,10 +34,11 @@ header h2{
 }
 
 footer {
-    bottom: 0;
-    left: 0;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     margin: 0;
     border-top: solid;
     border-color: #4aaaa5;
@@ -46,6 +47,12 @@ footer {
 
 
 }
+a{
+    color: #777777;
+    border-left: 1px solid #777777;
+    padding: 0.5px 15px;
+    font-size: 14px;
+}
 
 /*-------------------------------*/
 #About-Picture {
@@ -53,15 +60,24 @@ footer {
     margin: 0px 20px 0px 5px;
 }
 #About-button {
-    float: right;
+    position: absolute; 
+    top: 35px;
+    left: 800px;
+    
 }
 
 #Portfolio-button {
-    float: right;
+    position: absolute;
+    top: 35px;
+    left: 875px;
+
 }
 
 #Contact-button {
-    float: right;
+    position: absolute;
+    top: 35px;
+    left: 960px;
+
 }
 
 .top {
@@ -70,6 +86,7 @@ footer {
 }
 
 .middle {
+   background: #ffffff;
     width: 960px;
     margin: auto;
 }

@@ -17,10 +17,11 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     line-height: 25px;
+    margin: 30px;
 }
 
 header {
-    background: white;
+    background: #ffffff;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 30px;
     
@@ -28,7 +29,7 @@ header {
 
 header h1 {
     background: #4aaaa5;
-    color: white;
+    color: #ffffff;
     width: 275px;
     border: 25px;
     padding: 25px;
@@ -56,11 +57,21 @@ a{
     padding: 0.5px 15px;
     font-size: 14px;
 }
+form {
+    color: #777777;
+    margin: 10px;
+}
+form input{
+    border: 1px solid #cccccc;
+    width: 930px;
+    margin: 5px;
 
-/*-------------------------------*/
+}
+
+/*------------id-------------------*/
 #About-Picture {
     width: 20%;
-    margin: 0px 20px 0px 5px;
+    margin: 5px 20px 20px 30px;
     float: left;
 }
 #About-button {
@@ -83,6 +94,20 @@ a{
     left: 960px;
 
 }
+
+#Submit{
+width: 50px;
+margin-top: 20px;
+background: #4aaaa5;
+color: #ffffff;
+}
+
+#portfolio-image1{
+    width: 20%;
+    margin: 0px 20px 20px 30px;
+}
+
+/*--------------class--------------*/
 
 .top {
     width: 960px;

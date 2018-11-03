@@ -24,6 +24,7 @@ header {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 30px;
+    width:100%;
     
 }
 
@@ -59,14 +60,31 @@ a{
 }
 form {
     color: #777777;
-    margin: 10px;
+    margin: 10px 0px 0px 30px;
 }
-form input{
+form input {
     border: 1px solid #cccccc;
-    width: 930px;
+    width: 900px;
     margin: 5px;
 
 }
+
+img {
+    margin: 20px -16px 10px 145px;
+    width: 20%;
+
+}
+
+h4{ 
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 163px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px -16px 10px 145px;
+    /* Need to get h4 to get over the portfolio images. Messed around with margins and z-index, but could not get it.*/
+}
+
 
 /*------------id-------------------*/
 #About-Picture {
@@ -96,15 +114,19 @@ form input{
 }
 
 #Submit{
-width: 50px;
+width: 75px;
+height:30px;
 margin-top: 20px;
 background: #4aaaa5;
 color: #ffffff;
 }
 
-#portfolio-image1{
-    width: 20%;
-    margin: 0px 20px 20px 30px;
+#height-portfolio{
+    height: 1300px;
+}
+
+#message{
+    height:200px;
 }
 
 /*--------------class--------------*/
